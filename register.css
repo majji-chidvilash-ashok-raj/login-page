@@ -19,9 +19,9 @@ body{
     justify-content: center;
     display: flex;
     flex-direction: column;
-     background: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
-  backdrop-filter: blur(2px);    /* Apply a 10px blur effect */
-  -webkit-backdrop-filter: blur(2px); /* For Safari support */
+     background: rgba(0, 0, 0, 0.5); 
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
   width:400px ;
   height: 375px;
   z-index: 1;  
@@ -32,9 +32,9 @@ body{
 input{
     width: 350px;
     height: 35px;
-     background: rgba(0, 0, 0,0); /* Semi-transparent black */
-  backdrop-filter: blur(0.1px);    /* Apply a 10px blur effect */
-  -webkit-backdrop-filter: blur(0.1px); /* For Safari support */
+     background: rgba(0, 0, 0,0);
+  backdrop-filter: blur(0.1px);   
+  -webkit-backdrop-filter: blur(0.1px); 
   
   z-index: 1;  
   border-radius: 10px;
