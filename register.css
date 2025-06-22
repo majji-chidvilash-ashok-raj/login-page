@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.main{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+     box-shadow: 0 0 200px rgba(0,0,0,0.9) inset;
+}
+.box{
+    
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+     background: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+  backdrop-filter: blur(2px);    /* Apply a 10px blur effect */
+  -webkit-backdrop-filter: blur(2px); /* For Safari support */
+  width:400px ;
+  height: 375px;
+  z-index: 1;  
+  border-radius: 10px;
+  gap: 20px;
+
+}
+input{
+    width: 350px;
+    height: 35px;
+     background: rgba(0, 0, 0,0); /* Semi-transparent black */
+  backdrop-filter: blur(0.1px);    /* Apply a 10px blur effect */
+  -webkit-backdrop-filter: blur(0.1px); /* For Safari support */
+  
+  z-index: 1;  
+  border-radius: 10px;
+  border: white solid 0.1px;
+  padding: 2px;
+  padding-left: 15px;
+  color: white;
+}
+#button{
+    width: 350px;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 2px;
+}
+span{
+    color: white;
+}
+a{
+    font-weight: 1000px;
+    text-decoration: none;
+    color: green;
+}
+#button:hover{
+    border: white solid 2px;
+}
+h1{
+    color: white;
+}
