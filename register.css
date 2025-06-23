@@ -43,7 +43,7 @@ input{
   padding-left: 15px;
   color: white;
 }
-#button{
+#buttonR{
     width: 350px;
     height: 30px;
     border-radius: 10px;
@@ -58,7 +58,7 @@ a{
     text-decoration: none;
     color: green;
 }
-#button:hover{
+#buttonR:hover{
     border: white solid 2px;
 }
 h1{
