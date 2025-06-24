@@ -1,5 +1,3 @@
-    const emailR = document.getElementById('emailR').value;
-    const passR = document.getElementById('passR').value;
 document.getElementById('buttonR').addEventListener('click',function (e){
     e.preventDefault();
     const emailR = document.getElementById('emailR').value;
