@@ -64,3 +64,19 @@ a{
 h1{
     color: white;
 }
+@media (max-width : 512px) {
+    .box{
+    
+  width: 360px; ;
+  height: 350px;
+    }
+
+    input{
+    width: 300px;
+    height: 30px;
+}
+#buttonR{
+    width: 290px;
+    height: 30px;
+}
+}

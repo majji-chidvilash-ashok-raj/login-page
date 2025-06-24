@@ -44,7 +44,7 @@ input{
   padding-left: 15px;
   color: white;
 }
-#button{
+#buttonL{
     width: 350px;
     height: 30px;
     border-radius: 10px;
@@ -64,4 +64,20 @@ a{
 }
 h1{
     color: white;
+}
+@media (max-width : 512px) {
+    .box{
+    
+  width: 360px; ;
+  height: 350px;
+    }
+
+    input{
+    width: 300px;
+    height: 30px;
+}
+#buttonL{
+    width: 290px;
+    height: 30px;
+}
 }
