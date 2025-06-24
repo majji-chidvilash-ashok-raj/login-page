@@ -79,7 +79,7 @@ h3{
     padding: 2px;
 }
 
-.done{
+.open .done{
     height: 375px;
     width: 400px;
     position:absolute;
@@ -93,10 +93,11 @@ h3{
   flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+
    
     
 }
-.correct{
+.open .correct{
     height: 100px;
     width: 100px;
     border-radius: 50%;
@@ -104,29 +105,48 @@ h3{
     justify-content: center;
     align-items: center;
     text-align: center;
+     display: block;
 }
-.correct h2{
+.open .correct h2{
     justify-content: center;
     top: 50%;
     margin-top: 15px;
     color: white;
     font-size: 50px;
+     display: block;
 }
-#Rlogin{
+.open #Rlogin{
     height: 30px;
     border-radius: 10px;
     width: 370px;
     border: none;
     font-weight: 1000px;
     padding: 5px;
+     display: block;
 }
-.done span{
+.open .R{
     font-size: 35px;
+     display: block;
 }
-.done #pls{
+.open #pls{
     font-size: 25px;
+     display: block;
 }
-
+.correct{
+    display: none;
+ }
+.correct h2{
+    display: none;
+  }
+#Rlogin{
+    display: none;
+}
+.R{
+    display: none;
+}
+#pls{
+    display: none;
+}
 @media (max-width : 512px) {
     .box{
     
