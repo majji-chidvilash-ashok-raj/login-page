@@ -15,11 +15,10 @@
     else{
          document.querySelector('body').classList.add("open")
     }
+  
  
 
     
 
 })
-
-   
-}
+ }
